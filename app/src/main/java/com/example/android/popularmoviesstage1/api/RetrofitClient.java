@@ -14,7 +14,6 @@ public class RetrofitClient {
 
     private static RetrofitClient instance = null;
     private Retrofit retrofit;
-    private OkHttpClient client;
 
     private RetrofitClient(final String apiKey){
 
